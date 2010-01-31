@@ -1,0 +1,2 @@
+C:\Documents and Settings\magda\Pulpit\KrakFolder\KrakJam\AnimationTestProject\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bemon\SourceCodes\kolorowekredki\KrakJam\AnimationTestProject\Content\obj\x86\Debug\ResolveAssemblyReference.cache
