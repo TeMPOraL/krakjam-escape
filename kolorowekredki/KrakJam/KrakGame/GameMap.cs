@@ -6,10 +6,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using UglyFramework;
 using UglyFramework.HelperClasses;
-using FarseerGames.FarseerPhysics.Dynamics;
-using FarseerGames.FarseerPhysics.Collisions;
-using FarseerGames.FarseerPhysics.Factories;
-using FarseerGames.FarseerPhysics;
 
 namespace KrakGame
 {
