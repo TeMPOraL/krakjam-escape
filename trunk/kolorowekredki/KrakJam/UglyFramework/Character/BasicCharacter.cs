@@ -6,10 +6,6 @@ using UglyFramework.Anim;
 using Microsoft.Xna.Framework;
 using System.Xml.Serialization;
 using System.IO;
-using FarseerGames.FarseerPhysics.Dynamics;
-using FarseerGames.FarseerPhysics.Collisions;
-using FarseerGames.FarseerPhysics.Factories;
-using FarseerGames.FarseerPhysics.Dynamics.Joints;
 
 namespace UglyFramework.Character
 {

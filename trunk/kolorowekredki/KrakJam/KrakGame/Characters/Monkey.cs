@@ -7,10 +7,7 @@ using UglyFramework;
 using System.Xml.Serialization;
 using System.IO;
 using Microsoft.Xna.Framework;
-using FarseerGames.FarseerPhysics.Collisions;
 using KrakGame.GameObjects;
-using FarseerGames.FarseerPhysics.Factories;
-using FarseerGames.FarseerPhysics.Dynamics.Springs;
 using Microsoft.Xna.Framework.Input;
 
 namespace KrakGame.Characters

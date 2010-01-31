@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using FarseerGames.FarseerPhysics.Dynamics;
-using FarseerGames.FarseerPhysics.Factories;
 using Microsoft.Xna.Framework.Graphics;
-using FarseerGames.FarseerPhysics.Collisions;
 using UglyFramework;
 using System.Xml.Serialization;
 

@@ -10,7 +10,6 @@ using System.IO;
 using System.Windows.Forms;
 using Microsoft.Xna.Framework.Graphics;
 using KrakGame.Characters;
-using DemoBaseXNA;
 
 namespace KrakGame
 {
@@ -26,7 +25,6 @@ namespace KrakGame
         Monkey m_playerCharacter;
         Background m_levelBackground;
         GameBase m_gameBase;
-        PhysicsSimulatorView m_debugView;
 
         #region map basic data
 
@@ -122,6 +120,21 @@ namespace KrakGame
             Stream stream = File.Open(p, FileMode.Open);
             level = (Level)serializer.Deserialize(stream);
             level.Game = game;
+            level.MapTiles.Sort(new Comparison<MapTile>(delegate(MapTile a, MapTile b)
+            {
+                if (a.Position.X < b.Position.X)
+                {
+                    return -1;
+                }
+                else if (a.Position.X == b.Position.X)
+                {
+                    return 0;
+                }
+                else
+                {
+                    return 1;
+                }
+            }));
             return level;
         }
 
