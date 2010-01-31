@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<AnimationSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnimationType>Walk</AnimationType>
+  <FrameStartNumber>0</FrameStartNumber>
+  <FrameCount>4</FrameCount>
+</AnimationSet>

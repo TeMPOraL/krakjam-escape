@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<TestAnimationDescription xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Size>
+    <X>64</X>
+    <Y>64</Y>
+  </Size>
+  <AnimationSpeed>30</AnimationSpeed>
+</TestAnimationDescription>
